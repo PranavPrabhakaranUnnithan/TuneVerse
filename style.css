@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+header {
+  background: #111;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #1db954;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover, .nav-links a.active {
+  color: #1db954;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #1db954, #191414);
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #fff;
+  color: #1db954;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Dialogues */
+.dialogues {
+  text-align: center;
+  padding: 40px 20px;
+}
+.dialogues ul {
+  list-style: none;
+}
+.dialogues li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Mood Tracks */
+.tracks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.track-card {
+  background: #1c1c1c;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  text-align: center;
+}
+.track-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.track-card:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonial */
+.testimonial {
+  text-align: center;
+  font-style: italic;
+  padding: 40px;
+  color: #1db954;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 40px 20px;
+}
+.cta button {
+  background: #1db954;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 50px;
+}
+footer a {
+  color: #1db954;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.moods {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.moods h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
